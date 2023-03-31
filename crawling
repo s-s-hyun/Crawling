@@ -1,0 +1,19 @@
+//            다나와 제품 검색      
+//            String Url1 = "스팀덱"; //검색하고 싶은 검색어 입력하기
+//            String url = "https://search.danawa.com/dsearch.php?k1="+Url1; //크롤링할 url지정
+//            Document doc = null;        //Document에는 페이지의 전체 소스가 저장된다
+//
+//            try {
+//               doc = Jsoup.connect(url).get();
+//               System.out.println("============================================================");
+//               Elements els = doc.getElementsByClass("prod_main_info");
+//               for(Element e : els) {
+//                  Elements tit = e.select("p.prod_name");
+//                  Elements price = e.select("li.rank_one");
+//                     System.out.println("상품명 : "+tit.text()+" (가격 : "+price.select("a").text()+")");
+//                  System.out.println();
+//               }
+//               System.out.println("============================================================");
+//            } catch (Exception e) {
+//               // TODO: handle exception
+//            }
